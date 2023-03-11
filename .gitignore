@@ -1,0 +1,111 @@
+# Created by https://www.toptal.com/developers/gitignore/api/haskell,vim
+# Edit at https://www.toptal.com/developers/gitignore?templates=haskell,vim
+
+### Haskell ###
+dist
+dist-*
+cabal-dev
+*.o
+*.hi
+*.hie
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+.hpc
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+*.prof
+*.aux
+*.hp
+*.eventlog
+.stack-work/
+cabal.project.local
+cabal.project.local~
+.HTF/
+.ghc.environment.*
+
+/Cabal/dist/
+/Cabal/tests/Setup
+/Cabal/Setup
+/Cabal/source-file-list
+
+/cabal-install/dist/
+/cabal-install/Setup
+/cabal-install/source-file-list
+
+.stylish-haskell.yaml
+.stylish-haskell.yml
+.ghci
+.ghcid
+
+# Output of release and bootstrap
+_build
+
+# editor temp files
+
+*#
+.#*
+*~
+.*.swp
+*.bak
+
+# GHC build
+
+Cabal/GNUmakefile
+Cabal/dist-boot/
+Cabal/dist-install/
+Cabal/ghc.mk
+
+
+# TAGS files
+TAGS
+tags
+ctags
+
+# stack artifacts
+/.stack-work/
+stack.yaml.lock
+
+# Shake artifacts
+.shake*
+progress.txt
+
+# test files
+register.sh
+
+# windows test artifacts
+cabal-testsuite/**/*.exe
+cabal-testsuite/**/*.bat
+
+# python artifacts from documentation builds
+*.pyc
+.python-sphinx-virtualenv/
+/doc/.skjold_cache/
+
+# macOS folder metadata
+.DS_Store
+
+### Vim ###
+# Swap
+[._]*.s[a-v][a-z]
+!*.svg  # comment out if you don't need vector files
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
+
+# End of https://www.toptal.com/developers/gitignore/api/haskell,vim
